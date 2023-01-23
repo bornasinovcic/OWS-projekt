@@ -85,6 +85,18 @@
     background-attachment: fixed;
 }
 
+main {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main img {
+    display: block;
+    margin: auto;
+}
+
 .heading {
     display: flex;
     justify-content: center;
@@ -248,107 +260,6 @@ ul {
     background-color: #ffffff;
 }
 
-main {
-    width: 75%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.card {
-    width: 250px;
-    height: 330px;
-    margin: 30px;
-    padding: .8em;
-    background: #f5f5f5;
-    position: relative;
-    overflow: visible;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    border-radius: .5rem;
-}
-
-.card-img {
-    background-color: #ffcaa6;
-    height: 50%;
-    width: 100%;
-    border-radius: .5rem;
-    transition: .3s ease;
-}
-
-.one {
-    background-image: url('./images/strawberry.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.two {
-    background-image: url('./images/banana.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.three {
-    background-image: url('./images/apple.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.four {
-    background-image: url('./images/common_plum.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.five {
-    background-image: url('./images/grape.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.six {
-    background-image: url('./images/broccoli.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.seven {
-    background-image: url('./images/carrot.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.eight {
-    background-image: url('./images/celery.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.nine {
-    background-image: url('./images/eggplant.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.ten {
-    background-image: url('./images/red_onion.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card-info {
-    padding-top: 10%;
-}
-
-.card-footer {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    border-top: 1px solid #ddd;
-}
-
 .text-title {
     font-weight: 900;
     font-size: 1.2em;
@@ -360,32 +271,6 @@ main {
     padding-bottom: 10px;
 }
 
-.card-button {
-    border: 1px solid #252525;
-    display: flex;
-    padding: .3em;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: .3s ease-in-out;
-}
-
-.card-img:hover {
-    transform: translateY(-25%);
-    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
-}
-
-.card-button:hover {
-    border: 1px solid #1e7832;
-    background-color: #1e7832;
-}
-
-a {
-    text-decoration: none;
-}
-
-i {
-    color: #000000;
-}
 
 @media (max-width: 380px) {
     .navbar .logo a {
