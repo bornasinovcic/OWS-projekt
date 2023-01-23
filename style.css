@@ -74,7 +74,7 @@
 }
 
 .menu-list li a:hover {
-    color: #00ff00;
+    color: #FFD700;
 }
 
 .banner {
@@ -249,14 +249,14 @@ ul {
 
 main {
     width: 75%;
-    margin: 0 auto;
+    margin: 40px auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .card {
-    width: 250px;
+    width: 350px;
     margin: 40px;
     padding: 30px;
     background: white;
@@ -264,7 +264,6 @@ main {
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .shadow {
