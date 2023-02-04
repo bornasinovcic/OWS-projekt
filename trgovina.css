@@ -383,10 +383,6 @@ a {
     text-decoration: none;
 }
 
-i {
-    color: #000000;
-}
-
 @media (max-width: 380px) {
     .navbar .logo a {
         font-size: 27px;
